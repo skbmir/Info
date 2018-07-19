@@ -16,6 +16,10 @@
 
 - https://www.cityscapes-dataset.com/ - City Scapes датасет для мультиклассовой сегментации снятый на городских дорогах.
 
+- https://www.mapillary.com/dataset/vistas - Mapillary Vistas** датасет аналогичный City Scapes с мультиклассовой сегментацией.
+
+**Для доступа к некоторым датасетам требуется регистрация с ящиком от организации (в некоторых случаях, от университета)
+
 # Список ПО
 
 - [Ubuntu 16.04 LTS](http://releases.ubuntu.com/releases/16.04/), либо одно из: [Xubuntu](https://xubuntu.org/download), [Kubuntu](https://kubuntu.org/getkubuntu/), [Lubuntu](https://lubuntu.me/downloads/), [Ubuntu Mate](https://ubuntu-mate.org/download/), [Ubuntu Gnome](https://ubuntugnome.org/download/) версии 16.04 LTS
