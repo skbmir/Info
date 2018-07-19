@@ -10,6 +10,12 @@
 
 - http://www.cvlibs.net/datasets/kitti/ - KITTI Vision Benchmark Suite - данные для стереореконструкции, оптического потока, визуальной одометрии, детектирования объектов, отслеживания объектов, детектирования дороги, семантической сегментации.
 
+- http://data.apollo.auto - Apollo Data Open - аналогично Berkeley DeepDrive содержит данные с видеокамер, навигации, прочих модулей. Есть демо-данные (от 0.5 до 150+ Гб), открыты данные по сегментации (109 Гб). Другие нужно получать отдельно. 
+
+- http://graphics.cs.msu.ru/ru/node/1266 - Russian Traffic Sign Dataset - датасет российских дорожных знаков. Собран в различных ситуациях, погодных условиях и т.д. Содержит около 150 классов знаков для классификации, и около 180к фото с размеченными знаками для детектирования. Для каждой фото в csv файле есть описание. Ссылка на датасет внутри статьи (https://yadi.sk/d/TX5k2hkEm9wqZ)
+
+- https://www.cityscapes-dataset.com/ - City Scapes датасет для мультиклассовой сегментации снятый на городских дорогах.
+
 # Список ПО
 
 - [Ubuntu 16.04 LTS](http://releases.ubuntu.com/releases/16.04/), либо одно из: [Xubuntu](https://xubuntu.org/download), [Kubuntu](https://kubuntu.org/getkubuntu/), [Lubuntu](https://lubuntu.me/downloads/), [Ubuntu Mate](https://ubuntu-mate.org/download/), [Ubuntu Gnome](https://ubuntugnome.org/download/) версии 16.04 LTS
