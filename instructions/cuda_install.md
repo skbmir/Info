@@ -101,8 +101,33 @@ Cuda compilation tools, release 9.0, V9.0.176
 Runtime нужен для запуска программ с cuDNN.
 Developer нужен для разработки программ с cuDNN.
 
+Устанавливаем скачанные пакеты следующим образом:
+
 ```
 cd ~/Загрузки
 
-sudo dpkg -i 
+sudo dpkg -i libcudnn7_7.0.5.15-1+cuda9.0_amd64.deb libcudnn7-dev_7.0.5.15-1+cuda9.0_amd64.deb
+```
+
+#### 6. Установка TensorRT
+
+Скачиваем пакет [TensorRT](https://developer.nvidia.com/nvidia-tensorrt3_download).
+Нужен пакет for Ubuntu 16.04 and CUDA 9.0 DEB local repo packages.
+
+Устанавливаем пакет по аналогии с пакетами CUDA:
+
+```
+cd ~/Загрузки
+
+sudo dpkg -i nv-tensorrt-repo-ubuntu1604-ga-cuda9.0-trt3.0.4-20180208_1-1_amd64.deb
+
+sudo apt update
+
+sudo apt install tensorrt # Основной пакет
+
+sudo apt install python-libnvinfer python-libnvinfer-dev python-libnvinfer-doc swig3.0 # Для python 2.7
+
+sudo apt install python3-libnvinfer python3-libnvinfer-dev python3-libnvinfer-dev swig3.0 # Для python 3.5
+
+sudo apt install uff-converter-tf # Для всех случаев
 ```
