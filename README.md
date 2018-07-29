@@ -36,6 +36,10 @@
 - [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 -----------
-## **Доки**
+## **Инструкции**
 
-
+1. [После установки Ubuntu](./instructions/ubuntu_after_install.md)
+2. [Настройка Python](./instructions/python.md)
+3. [Установка CUDA](./instructions/cuda_install.md)
+3. [Установка ROS](./instructions/ROS_install.md)
+4. [Установка OpenCV](./instructions/opencv.md)
