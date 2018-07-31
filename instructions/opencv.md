@@ -15,7 +15,7 @@ sudo apt install build-essential unzip cmake cmake-qt-gui python-dev pkg-config 
 
 # Для кодирования/декодирования изображений и видео
 
-sudo apt install libjpeg-dev libpng-dev libtiff-dev libjasper-dev libx264-dev libx265-dev libavcodec-dev libavformat-dev libxvidcore-dev ffmpeg 
+sudo apt install libjpeg-dev libpng-dev libtiff-dev libjasper-dev libx264-dev libx265-dev libavcodec-dev libavformat-dev libxvidcore-dev ffmpeg libavresample-dev
 
 # Для работы с оборудованием захвата
 
