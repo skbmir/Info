@@ -32,7 +32,7 @@
 - [TensorRT 3.0](https://developer.nvidia.com/nvidia-tensorrt3-download)
 - [cuDNN 7.0.5](https://developer.nvidia.com/rdp/cudnn-archive)
 - [OpenCV 3.4](https://github.com/opencv/opencv/releases)
-- Python 2.7
+- Python 3.5
 - [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 -----------
