@@ -33,6 +33,7 @@
 - [cuDNN 7.0.5](https://developer.nvidia.com/rdp/cudnn-archive)
 - [OpenCV 3.4](https://github.com/opencv/opencv/releases)
 - Python 3.5
+- NumPy 1.14.5
 - [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 -----------
