@@ -20,6 +20,8 @@
 
 - https://www.mapillary.com/dataset/vistas - Mapillary Vistas** датасет аналогичный City Scapes с мультиклассовой сегментацией.
 
+- https://www.micc.unifi.it/resources/datasets/semantic-road-inpainting/ - свежий датасет с данными для сегментации дороги
+
 ----------------------
 ## **Полезные ссылки**
 - https://ru.stackoverflow.com/questions/454683/%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B8-%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F/454684#454684 - разные ссылки в основном по программированию, есть машинное обучение и linux
