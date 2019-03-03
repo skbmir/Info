@@ -22,6 +22,16 @@
 
 - https://www.micc.unifi.it/resources/datasets/semantic-road-inpainting/ - свежий датасет с данными для сегментации дороги
 
+- https://xingangpan.github.io/projects/CULane.html - набор данных для детекции полосы
+
+- https://hci.iwr.uni-heidelberg.de/node/6132 - набор данных для детекции светофоров
+
+- http://cvrr.ucsd.edu/vivachallenge/index.php/traffic-light/traffic-light-detection/ - набор данных для детекции светофоров (6 классов)
+
+- https://www.getnexar.com/challenge-2/ - набор данных для детекции автомобилей
+
+- http://www.mohamedaly.info/datasets/caltech-lanes - набор данных для детекции полосы
+
 - https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/ - список наиболее используемых датасетов, от изображений до звука
 
 - http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm - крупный список малораспространенных датасетов для различных задач компьютерного зрения
