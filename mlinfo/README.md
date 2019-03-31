@@ -23,6 +23,43 @@
  - https://tianchi.aliyun.com/ - осторожно, Китай (или Япония).
  - https://boosters.pro/
  
+--------------------
+## **Наборы данных**
+
+#### **!!! Для доступа к некоторым датасетам требуется регистрация с ящиком от организации (в некоторых случаях, от университета)**
+
+- http://bdd-data.berkeley.edu/ - Berkeley DeepDrive - Видео, GPS, инерциальная навигация, временные метки для данных. Данные для: детектирования объектов, сегментации, детектирования разметки и выделения участков дороги, по которым может происходить перемещение автомобиля. (~1,9 ТБ)
+
+- http://www.cvlibs.net/datasets/kitti/ - KITTI Vision Benchmark Suite - данные для стереореконструкции, оптического потока, визуальной одометрии, детектирования объектов, отслеживания объектов, детектирования дороги, семантической сегментации.
+
+- http://data.apollo.auto - Apollo Data Open - аналогично Berkeley DeepDrive содержит данные с видеокамер, навигации, прочих модулей. Есть демо-данные (от 0.5 до 150+ Гб), открыты данные по сегментации (109 Гб). Другие нужно получать отдельно. 
+
+- http://graphics.cs.msu.ru/ru/node/1266 - Russian Traffic Sign Dataset - датасет российских дорожных знаков. Собран в различных ситуациях, погодных условиях и т.д. Содержит около 150 классов знаков для классификации, и около 180к фото с размеченными знаками для детектирования. Для каждой фото в csv файле есть описание. Ссылка на датасет внутри статьи (https://yadi.sk/d/TX5k2hkEm9wqZ)
+
+- https://www.cityscapes-dataset.com/ - City Scapes датасет для мультиклассовой сегментации снятый на городских дорогах.
+
+- https://www.mapillary.com/dataset/vistas - Mapillary Vistas** датасет аналогичный City Scapes с мультиклассовой сегментацией.
+
+- https://www.micc.unifi.it/resources/datasets/semantic-road-inpainting/ - свежий датасет с данными для сегментации дороги
+
+- https://xingangpan.github.io/projects/CULane.html - набор данных для детекции полосы
+
+- https://hci.iwr.uni-heidelberg.de/node/6132 - набор данных для детекции светофоров
+
+- http://cvrr.ucsd.edu/vivachallenge/index.php/traffic-light/traffic-light-detection/ - набор данных для детекции светофоров (6 классов)
+
+- https://www.getnexar.com/challenge-2/ - набор данных для детекции автомобилей
+
+- http://www.mohamedaly.info/datasets/caltech-lanes - набор данных для детекции полосы
+
+- https://www.analyticsvidhya.com/blog/2018/03/comprehensive-collection-deep-learning-datasets/ - список наиболее используемых датасетов, от изображений до звука
+
+- http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm - крупный список малораспространенных датасетов для различных задач компьютерного зрения
+
+- http://riemenschneider.hayko.at/vision/dataset/index.php - еще один список датасетов
+
+- http://academictorrents.com/collection/computer-vision - некоторые крупные датасеты в виде торрентов
+ 
 ----------------
 ## **То, что желательно уметь имплементировать** 
 
