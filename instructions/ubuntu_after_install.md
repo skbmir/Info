@@ -74,7 +74,7 @@ sudo apt install chromium-browser pepperflashplugin-nonfree
 
 #### - Набор библиотек Boost
 
-Boost - набор библиотек для c++, покрывают различный функционал (многопоточность, клиент-серверные приложения, распространенные структуры данных и алгоритмы и т.п.)
+Boost - набор библиотек для c++, покрывают различный функционал (многопоточность, клиент-серверные приложения, распространенные структуры данных и алгоритмы и т.п.). Часто требуется нодам из состава ROS и многим другим приложениям.
 
 ```
 sudo apt install libboost-all-dev
@@ -85,3 +85,14 @@ sudo apt install libboost-all-dev
 ```
 sudo apt install build-essential dkms unzip unrar p7zip-full wget curl libopenblas-dev liblapack-dev liblapacke-dev git cmake cmake-qt-gui pkg-config automake autoconf qt-sdk qt5-default vlc chromium-browser pepperflashplugin-nonfree libboost-all-dev
 ```
+
+#### Скрипт для автоматического обновления и установки базвого набора ПО (кроме ROS Kinetic)
+
+[Сам скрипт](setup16.sh)
+
+1. Скачиваем в удобную папку
+2. В папке со скриптом открываем терминал
+3. В терминале выполняем ./setup16.sh
+4. Вводим пароль
+5. Ждем пока скрипт закончит обновление и установку
+6. Перезагружаем ПК
