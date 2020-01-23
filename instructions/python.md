@@ -8,7 +8,7 @@
 sudo apt install python-dev python-pip python-wheel python-setuptools python-tk python-numpy
 ```
 
-для python 3.5:
+для python 3.6:
 
 ```
 sudo apt install python3-dev python3-pip python3-wheel python3-setuptools python3-tk python3-numpy
@@ -28,7 +28,7 @@ sudo apt install libffi-dev swig
 sudo -H pip2 install -U --force-reinstall pip wheel setuptools numpy chardet urllib3
 ```
     
-для python 3.5:
+для python 3.6:
 
 ```
 sudo -H pip3 install -U --force-reinstall pip wheel setuptools numpy chardet urllib3
@@ -46,7 +46,7 @@ sudo -H pip2 install scikit-learn scikit-image pandas # Пакеты для ма
 sudo -H pip2 install jedi pylint flake8 pep8 # Вспомогательные пакеты (автодополнение в редакторах и т.п.)
 ```
 
-для python 3.5:
+для python 3.6:
 
 ```
 sudo -H pip3 install cffi Cython scipy matplotlib # Базовые пакеты
@@ -61,11 +61,17 @@ sudo -H pip3 install jedi pylint flake8 pep8 # Вспомогательные п
 ```
 sudo -H pip2 install spyder # Для python 2.7
 
-sudo -H pip3 install spyder # Для python 3.5
+sudo -H pip3 install spyder # Для python 3.6
 
 # Ставить только один из ^^^
 ```
 
-5. [Установка модуля OpenCV](./opencv.md)
+5. Установка TensorFlow и Keras
 
-6. Установка TensorFlow и Keras
+После установки CUDA можно поставить библиотеки TensorFlow и Keras для обучения нейросетей
+
+```
+sudo -H pip2 install tensorflow-gpu==1.15.0 keras # Для python 2.7
+
+sudo -H pip3 install tensorflow-gpu==1.15.0 keras # Для python 3.6
+```

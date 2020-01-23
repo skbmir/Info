@@ -10,16 +10,16 @@
 #### **!!! Чтобы скачать TensorRT и cuDNN надо регистрироваться на сайте Nvidia**
 
 ##### ROS:
-- [Ubuntu 16.04 LTS](http://releases.ubuntu.com/releases/16.04/), либо одно из: [Xubuntu](https://xubuntu.org/download), [Kubuntu](https://kubuntu.org/getkubuntu/), [Lubuntu](https://lubuntu.me/downloads/), [Ubuntu Mate](https://ubuntu-mate.org/download/), [Ubuntu Gnome](https://ubuntugnome.org/download/) версии 16.04 LTS
+- [Ubuntu 18.04 LTS](http://releases.ubuntu.com/releases/18.04/), либо одно из: [Xubuntu](https://xubuntu.org/download), [Kubuntu](https://kubuntu.org/getkubuntu/), [Lubuntu](https://lubuntu.me/downloads/), [Ubuntu Mate](https://ubuntu-mate.org/download/), [Ubuntu Gnome](https://ubuntugnome.org/download/) версии 18.04 LTS
 - [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 - Python 2.7
 
 ##### Computer vision:
-- [OpenCV 3.4](https://github.com/opencv/opencv/releases) (OpenCV 3.3-dev идет в комплекте с ROS Kinetic)
-- Nvidia driver 410
+- [OpenCV 3.2](https://github.com/opencv/opencv/releases) (OpenCV 3.2 идет в комплекте с Ubuntu 18.04 и ROS Melodic)
+- Nvidia driver 430
 - [CUDA 10.0](https://developer.nvidia.com/cuda-10.0-download-archive)
-- [TensorRT 5.0 for CUDA 10.0 Ubuntu 16.04](https://developer.nvidia.com/tensorrt) - нужна регистрация
-- [cuDNN 7.5.0](https://developer.nvidia.com/rdp/cudnn-archive) - нужна регистрация
+- [TensorRT 5.1 for CUDA 10.0 Ubuntu 18.04](https://developer.nvidia.com/tensorrt) - нужна регистрация
+- [cuDNN 7.6](https://developer.nvidia.com/cudnn) - нужна регистрация
 - tensorflow 1.13.0
 
 
@@ -30,7 +30,6 @@
 2. [Настройка Python](./instructions/python.md)
 3. [Установка CUDA](./instructions/cuda_install.md)
 4. [Установка ROS](./instructions/ROS_install.md)
-5. [Установка OpenCV](./instructions/opencv.md)
 
 ----------------------
 ## **Полезные ссылки**
